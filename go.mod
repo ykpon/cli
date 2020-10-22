@@ -4,8 +4,10 @@ require (
 	github.com/cheggaaa/pb/v3 v3.0.5
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fatih/structs v1.1.0
-	github.com/hetznercloud/hcloud-go v1.22.0
+	github.com/guptarohit/asciigraph v0.5.1
+	github.com/hetznercloud/hcloud-go v1.23.0
 	github.com/kr/pretty v0.1.0 // indirect
+	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/pelletier/go-toml v1.8.0
 	github.com/spf13/cobra v1.0.1-0.20200826151851-02a0d2fbc9e6
 	github.com/spf13/pflag v1.0.5
@@ -15,3 +17,5 @@ require (
 )
 
 go 1.15
+
+replace github.com/hetznercloud/hcloud-go v1.23.0 => hetzner.cloud/integrations/hcloud-go v1.23.0-rc.6
